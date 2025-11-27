@@ -17,6 +17,6 @@ def install_packages(env_name="venv"):
     subprocess.check_call([pip_path, "install"] + packages)
 
 
-if __name__ == "__init__":
+if __name__ == "__main__":
     create_virtualenv()
     install_packages()

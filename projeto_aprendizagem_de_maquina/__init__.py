@@ -12,7 +12,9 @@ def install_packages(env_name="venv"):
     else: 
         pip_path = os.path.join(env_name, "bin", "pip")
 
-    packages = ["jupyter", "pandas", "scikit-learn", "seaborn", "statsmodels"]
+    packages = ["jupyter", "pandas", "scikit-learn", 
+                "seaborn", "statsmodels", "scipy",
+                "matplotlib"]
 
     subprocess.check_call([pip_path, "install"] + packages)
 

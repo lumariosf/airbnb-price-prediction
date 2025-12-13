@@ -2,7 +2,7 @@ from xgboost import XGBRegressor
 from sklearn.model_selection import GridSearchCV
 import numpy as np
 
-def analise_hiperparametros(model, features, target):
+def analise_hiperparametros(features, target):
     
     param_grid = {
     "n_estimators": np.arange(200, 800, 100),     

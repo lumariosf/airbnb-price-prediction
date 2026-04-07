@@ -2,7 +2,6 @@
 
 Este projeto foi desenvolvido para a disciplina de **Aprendizado de Máquina** na **UFPE (CIn)**. O objetivo é prever os preços de listagens do Airbnb em diversas metrópoles mundiais utilizando técnicas de regressão e análise exploratória de dados (EDA).
 
----
 ## 👥 Colaboradores
 
 Este projeto foi desenvolvido em conjunto por:
@@ -18,7 +17,6 @@ Utilizamos um dataset real com informações detalhadas de acomodações (como t
 * 🇬🇧 Londres (London)
 * 🇪🇸 Barcelona
 
----
 
 ## 🛠️ Tecnologias e Modelos
 O projeto foi implementado em **Python**, utilizando as principais bibliotecas do ecossistema de Data Science:
@@ -31,9 +29,8 @@ O projeto foi implementado em **Python**, utilizando as principais bibliotecas d
 ### Modelos Testados:
 1.  **K-Nearest Neighbors (KNN)**
 2.  **Linear Regression**
-3.  **XGBoost Regressor** (Melhor performance)
+3.  **XGBoost Regressor** 
 
----
 
 ## 🚀 Como Executar
 1. Clone o repositório:

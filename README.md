@@ -8,7 +8,11 @@ Este projeto foi desenvolvido em conjunto por:
 
 * **[Luma Rios](https://github.com/lumariosf)** 
 * **[Giovanna Mafra](https://github.com/GiovannaMafra)** 
-* **[Mariana Freire](https://github.com/marisfreire)** 
+* **[Mariana Freire](https://github.com/marisfreire)**
+
+## 📄 Relatório Completo
+Podes ler o estudo detalhado sobre os fatores determinantes dos preços aqui:
+👉 **[Baixar Relatório em PDF](./Relatório_AM.pdf)**
 
 ## 📊 Sobre o Projeto
 Utilizamos um dataset real com informações detalhadas de acomodações (como tipo de quarto, avaliações, localização e comodidades) para construir modelos capazes de estimar o valor da diária.

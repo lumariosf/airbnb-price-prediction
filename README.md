@@ -1,61 +1,41 @@
-# projeto-aprendizagem-de-maquina
+# 🏠 Airbnb Price Prediction with Machine Learning
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
+Este projeto foi desenvolvido para a disciplina de **Aprendizado de Máquina** na **UFPE (CIn)**. O objetivo é prever os preços de listagens do Airbnb em diversas metrópoles mundiais utilizando técnicas de regressão e análise exploratória de dados (EDA).
 
-A short description of the project.
+---
+## 👥 Colaboradores
 
-## Project Organization
+Este projeto foi desenvolvido em conjunto por:
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         projeto_aprendizagem_de_maquina and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── projeto_aprendizagem_de_maquina   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes projeto_aprendizagem_de_maquina a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+* **[Luma Rios](https://github.com/lumariosf)** 
+* **[Giovanna Mafra](https://github.com/GiovannaMafra)** 
+* **[Mariana Freire](https://github.com/marisfreire)** 
 
---------
+## 📊 Sobre o Projeto
+Utilizamos um dataset real com informações detalhadas de acomodações (como tipo de quarto, avaliações, localização e comodidades) para construir modelos capazes de estimar o valor da diária.
 
+### Cidades Analisadas:
+* 🇬🇧 Londres (London)
+* 🇪🇸 Barcelona
+
+---
+
+## 🛠️ Tecnologias e Modelos
+O projeto foi implementado em **Python**, utilizando as principais bibliotecas do ecossistema de Data Science:
+
+* **Pandas & Numpy:** Manipulação e limpeza de dados.
+* **Scikit-Learn:** Implementação dos modelos e pipelines de pré-processamento.
+* **Skopt (BayesSearchCV):** Otimização bayesiana de hiperparâmetros.
+* **Matplotlib & Seaborn:** Visualização de dados e matrizes de correlação.
+
+### Modelos Testados:
+1.  **K-Nearest Neighbors (KNN)**
+2.  **Linear Regression**
+3.  **XGBoost Regressor** (Melhor performance)
+
+---
+
+## 🚀 Como Executar
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/lumariosf/airbnb-price-prediction.git](https://github.com/lumariosf/airbnb-price-prediction.git)
